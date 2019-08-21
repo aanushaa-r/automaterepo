@@ -1,10 +1,6 @@
 #!/bin/bash
-echo "enter your reponame"
-read reponame
-echo "your repository is:"$reponame
-echo "enter you file name"
-read file
-echo "your file name is"$file
+echo "your repository is:"gitautomate_repo
+echo "your file is"file1.txt
 git add .
 echo "YOUR FILE IS ADDED"
 echo "enter you commit message"
