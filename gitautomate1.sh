@@ -1,12 +1,16 @@
 #!/bin/bash
-echo "your repository is:"
+echo "enter your repository"
 read reponame
-echo "your file is"file1.txt
+echo "your repository name is:"$reponame
+echo "enter yoour file name"
+read file
+echo "your file name is:"$file
+git status
 git add .
-echo "YOUR FILE IS ADDED"
-echo "enter you commit message"
+git status
+echo "enter your commit message"
 read commitmessage
 git commit -m "$commitmessage"
-echo "COMMIT DONE"
+git status
+git log --oneline
 git push
-echo "PUSHED TO GIT HUB"
