@@ -9,3 +9,4 @@ git add .
 echo "enter you commit message"
 read commitmessage
 git commit -m "$commitmessage"
+git push
