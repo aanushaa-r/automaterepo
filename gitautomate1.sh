@@ -1,5 +1,6 @@
 #!/bin/bash
-echo "your repository is:"gitautomate_repo
+echo "your repository is:"
+read reponame
 echo "your file is"file1.txt
 git add .
 echo "YOUR FILE IS ADDED"
